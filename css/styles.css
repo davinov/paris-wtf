@@ -1,3 +1,9 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat|Open+Sans);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .wtf-container {
   overflow: hidden;
   width: 100%;
@@ -16,6 +22,10 @@
 }
 .wtf .title, .wtf .date {
   background-color: rgba(100, 100, 100, 0.5);
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: normal;
 }
 
 .wtf .title {
