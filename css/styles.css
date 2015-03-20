@@ -1,0 +1,29 @@
+.wtf-container {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.wtf, footer {
+  width: 100%;
+  padding: 1em;
+}
+
+.wtf {
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+.wtf .title, .wtf .date {
+  background-color: rgba(100, 100, 100, 0.5);
+}
+
+.wtf .title {
+  color: white;
+}
+
+footer {
+  font-size: smaller;
+  background-image: url("../img/pattern.png");
+  background-repeat: repeat;
+}

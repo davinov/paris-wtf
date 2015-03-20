@@ -1,6 +1,8 @@
-<md-content style="{'background-image': {{ wtf.background }}">
-  <p class="date">
-    {{ wtf.date }}
+<div class="wtf" ng-style="{'background-image': 'url('+ wtf.background +')'}">
+  <p>
+    <span class="date">{{ wtf.date }}</span>
   </p>
-  <h1 ng-bind-html="wtf.title"></h1>
-</md-content>
+  <h2>
+    <span ng-bind-html="wtf.title" class="title"></span>
+  </h2>
+</div>
