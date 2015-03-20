@@ -1,0 +1,53 @@
+<!doctype html>
+<html class="no-js" lang="" ng-app="paris.wtf">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Pari.WTF</title>
+        <meta name="description" content="Pour faire no 50 millions d'amis provinciaux">
+        <meta name="viewport" contesnt="widths=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <section ng-view>
+            <p>
+                Chargement du WTF d'aujourd'hui...
+            </p>
+        </section>
+
+        <footer>
+            <p>
+                Pour faire rire nos 50 millions d'ami provinciaux.
+            </p>
+            <p>
+                Envie de contribuer ? Envoie un "<a href="mailto:david@paris.wtf">courriel</a>" ou fait une <a href="https://github.com/davinov/paris-wtf">PR</a> comme un grand.
+            </p>
+        </footer>
+
+        <script src="js/plugins.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-route.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-animate.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-sanitize.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angular_material/0.8.2/angular-material.min.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-36812575-4','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>
